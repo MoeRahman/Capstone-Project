@@ -2,6 +2,10 @@
 
 Drone Video: https://www.youtube.com/watch?v=_IZWb5vrdCY 
 
+**DRONE MECHANICAL ASSEMBLY**
+
+
+
 
 **MATLAB STATE SPACE MODEL**
 
@@ -51,3 +55,4 @@ C = [1 0 0 0 0 0 0 0 0 0 0 0;
      0 0 0 0 0 0 0 0 1 0 0 0;];
 D = zeros(6, 4);
 sys = ss(A,B,C,D);
+
