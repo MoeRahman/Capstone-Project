@@ -4,7 +4,11 @@ Drone Video: https://www.youtube.com/watch?v=_IZWb5vrdCY
 
 **DRONE MECHANICAL ASSEMBLY**
 
+![REV 1 (1)](https://github.com/MoeRahman/Capstone-Project/assets/138165453/53c8d6d8-ed8c-4d74-9f31-5b2be588dfc6)
 
+**DRONE TEST JIG ASSEMBLY**
+
+![REV 1 (2)](https://github.com/MoeRahman/Capstone-Project/assets/138165453/80197168-cbf5-46c3-bda5-7138625911e7)
 
 
 **MATLAB STATE SPACE MODEL**
