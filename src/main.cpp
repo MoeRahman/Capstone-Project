@@ -312,32 +312,4 @@ void loop() {
   unsigned long duration = end_time - start_time;
   if(duration < 2500) delayMicroseconds(2500 - duration);
 
-  //Serial.print("LOOP TIME: "); Serial.println(end_time - start_time);
-  //Serial.print("thrust_cmd: "); Serial.print(thrust); Serial.print("  \t");
-  //Serial.print("roll_cmd: "); Serial.print(pid_roll); Serial.print("  \t");
-  //Serial.print("pitch_cmd: "); Serial.print(pid_pitch); Serial.print("  \t");
-  //Serial.print("yaw_cmd: "); Serial.print(pid_yaw); Serial.println("  \t");
-  
-  //Serial.print("thrust_mtr:\t"); Serial.print(thrust); Serial.print("\t");
-  //Serial.print("roll_mtr:\t"); Serial.print(desired_roll); Serial.print("\t");
-  //Serial.print("pitch_mtr:\t"); Serial.print(desired_pitch); Serial.print("\t");
-  //Serial.print("yaw_mtr:\t"); Serial.print(desired_yaw); Serial.println("\t");
-  
-  //Serial.print(desired_roll); Serial.print("|"); Serial.print(desired_pitch); Serial.print("|"); Serial.println(desired_yaw);
-  //Serial.println(String(A_Roll) + "|" + String(A_Pitch) + "|" + String(G_Yaw) + "|" + String(KalmanRoll) + "|" + String(KalmanPitch));
-  //float Roll = KalmanRoll - Roll_Cal;
-  //float Pitch = KalmanPitch - Pitch_Cal;
-  //Serial.println("," + String(Roll) + "|" + String(Pitch) + "|" + String(G_Yaw)); // the one for GUI
-  Serial.println("," + String(KalmanRoll - Roll_Cal) + "|" + String(KalmanPitch - Pitch_Cal) + "|" + String(G_Yaw)); //+"|"+ String(desired_roll) +"|"+ String(desired_pitch) +"|"+ String(desired_yaw));
-  
- // Serial.print("\t M_0: " + String(KalmanRoll - Roll_Cal) + "|" + String(KalmanPitch - Pitch_Cal));
- // Serial.print("\t D_0: " + String(desired_roll) +"|"+ String(desired_pitch));
- // Serial.print("\t error_0: " + String(roll_err) +"|"+ String(pitch_err));
- // Serial.print("\t pid_0: " + String(pid_roll) +"|"+ String(pid_pitch));
-
-  //Rates
-  //Serial.print("\t\t pid_rates: " + String(pid_rollRate) +"|"+ String(pid_pitchRate));
-  //Serial.print("\t\t gyrorates: " + String(Sensor_RollRate) +"|"+ String(Sensor_RollRate));
-  //Serial.println("\t\t rate_errors: " + String(rollRate_err) +"|"+ String(pitchRate_err));
-
 };
