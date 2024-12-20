@@ -129,7 +129,7 @@ void accel_angle(float &a_roll, float &a_pitch, float &a_yaw,
     
     // Usign Accelerometer Trig we are able to calcualte Roll and Pitch
     // But not yaw since it z-axis does not experince a chagne in accelation with changes in yaw
-    // This method is shit, huge vibrations 
+    // This method is terrible, huge vibrations 
     a_roll = atan(AccY/sqrt(AccX*AccX + AccZ*AccZ))*1/(3.142/180);
     a_pitch = atan(AccX/sqrt(AccY*AccY + AccZ*AccZ))*1/(3.142/180);
 }
