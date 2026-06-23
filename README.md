@@ -10,9 +10,13 @@ Drone Video: https://www.youtube.com/watch?v=_IZWb5vrdCY
 
 ![REV 1 (2)](https://github.com/MoeRahman/Capstone-Project/assets/138165453/80197168-cbf5-46c3-bda5-7138625911e7)
 
+**Custom Flight Controller PCB**
+<p float="left">
+     <img src="Screenshot 2025-10-22 203627.png" width="50%" />
+     <img src="Screenshot 2025-10-31 190452.png" width="50%" />
+</p>
 
 **MATLAB STATE SPACE MODEL**
-
 
 ```matlab
 m1 = 600/1000;  % drone mass in grams
